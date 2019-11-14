@@ -10,7 +10,13 @@ namespace TendenciasCase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            Console.WriteLine("Escriba un texto: ");
+            string mensaje = Console.ReadLine();
+
+            string mensajeUpper = mensaje.ToUpper();
+
+            Console.WriteLine(mensajeUpper);
+
             Console.ReadKey();
         }
     }
